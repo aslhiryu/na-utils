@@ -4,9 +4,10 @@
     
     <groupId>neoatlantis</groupId>
     <artifactId>na-utils</artifactId>
-    <version>2.6</version>
+    <version>3.0</version>
     <packaging>jar</packaging>
-    
+    <description>Utilerias de NeoAtlantis</description>
+        
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
