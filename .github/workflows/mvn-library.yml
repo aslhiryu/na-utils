@@ -31,3 +31,8 @@ jobs:
         
     - name: Genera JAR 
       run: mvn -B package -f pom.xml
+
+    - name: Publica el JAR en GitHub Packages Apache Maven
+      run: mvn deploy -e -s $GITHUB_WORKSPACE/settings.xml -f pom.xml
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
