@@ -67,4 +67,12 @@
             <version>3.0.7.RELEASE</version>
         </dependency>
     </dependencies>
+    
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/aslhiryu/na-utils/</url>
+        </repository>
+    </distributionManagement>
 </project>
