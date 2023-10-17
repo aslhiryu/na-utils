@@ -4,10 +4,10 @@
 name: Maven Package
 
 on: push
-#  release:
-#    types: [created]
-#  push:
-#    tags: ['V.*.*']
+  release:
+    types: [created]
+  push:
+    tags: ['V.*.*']
 
 jobs:
   build:
