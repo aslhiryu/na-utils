@@ -4,7 +4,7 @@
     
     <groupId>neoatlantis</groupId>
     <artifactId>na-utils</artifactId>
-    <version>3.1</version>
+    <version>3.2</version>
     <packaging>jar</packaging>
     <description>Utilerias de NeoAtlantis</description>
         
